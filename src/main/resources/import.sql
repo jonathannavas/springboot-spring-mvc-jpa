@@ -1,4 +1,4 @@
-INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('Andres', 'Guzman', 'profesor@bolsadeideas.com', '2017-08-01','');
+INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('Jonathan', 'Navas', 'jonathan.navas9@hotmail.com', '2017-08-01','');
 INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('John', 'Doe', 'john.doe@gmail.com', '2017-08-02','');
 INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('Linus', 'Torvalds', 'linus.torvalds@gmail.com', '2017-08-03','');
 INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('Jane', 'Doe', 'jane.doe@gmail.com', '2017-08-04','');
@@ -23,3 +23,12 @@ INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('John', 'S
 INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('Joe', 'Bloggs', 'joe.bloggs@gmail.com', '2017-08-23','');
 INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('John', 'Stiles', 'john.stiles@gmail.com', '2017-08-24','');
 INSERT INTO clientes (nombre, apellido, email, create_at,foto) VALUES('Richard', 'Roe', 'stiles.roe@gmail.com', '2017-08-25','');
+
+/* Completar tabla de productos */
+
+INSERT INTO productos (nombre, precio, create_at)  VALUES ('Redmi note 7', 180,NOW());
+INSERT INTO productos (nombre, precio, create_at)  VALUES ('Redmi note 8', 210,NOW());
+INSERT INTO productos (nombre, precio, create_at)  VALUES ('Laptop hp 4530s', 400,NOW());
+INSERT INTO productos (nombre, precio, create_at)  VALUES ('Redmi note 9s', 280,NOW());
+INSERT INTO productos (nombre, precio, create_at)  VALUES ('Iphone x', 580,NOW());
+INSERT INTO productos (nombre, precio, create_at)  VALUES ('Tv Riviera Smart Tv', 450,NOW());
