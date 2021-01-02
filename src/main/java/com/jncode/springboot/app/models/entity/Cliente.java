@@ -123,7 +123,11 @@ public class Cliente implements Serializable {
 	public Cliente() {
 		this.facturas = new ArrayList<>();
 	}
-	
+
+	@Override
+	public String toString() {
+		return nombre + " " + apellido;
+	}
 	
 	
 }
