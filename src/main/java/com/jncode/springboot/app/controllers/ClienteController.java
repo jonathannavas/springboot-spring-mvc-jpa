@@ -77,7 +77,7 @@ public class ClienteController {
 		return "ver";
 	}
 
-	@GetMapping("/listar")
+	@GetMapping({"/listar","/"})
 	public String listar(@RequestParam(name = "page", defaultValue = "0") int page, Model model) {
 
 		// paginador
