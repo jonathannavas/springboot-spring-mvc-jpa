@@ -44,3 +44,13 @@ INSERT INTO facturas_items (cantidad, factura_id, producto_id) VALUES(3,1,2);
 INSERT INTO facturas (descripcion, observacion, cliente_id, create_at) VALUES('Compra de tecnologia', 'Promociones del mes de Diciembre', 1, NOW());
 INSERT INTO facturas_items (cantidad, factura_id, producto_id) VALUES(2,2,3);
 INSERT INTO facturas_items (cantidad, factura_id, producto_id) VALUES(5,2,6);
+
+/* Crear usuarios con sus roles */
+
+INSERT INTO users (username, password, enabled) VALUES ('jonathan','$2a$10$ajJO6ztU1y2mjZlxVn5syeddIVh59MTzbO2vNQgHu06tBMoVqAWoC',1);
+INSERT INTO users (username, password, enabled) VALUES ('admin','$2a$10$ueMRAk00YV3q1ZER7RujXufBmic2wVpNfPxDks1cJUEKvy/lAGuV6',1);
+
+INSERT INTO authorities (user_id, authority) VALUES (1, 'ROLE_USER');
+INSERT INTO authorities (user_id, authority) VALUES (2, 'ROLE_USER');
+INSERT INTO authorities (user_id, authority) VALUES (2, 'ROLE_ADMIN');
+
