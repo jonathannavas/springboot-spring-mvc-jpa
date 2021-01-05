@@ -46,6 +46,24 @@
 				</li>
 		     
 		     </ul>
+		     <ul class="navbar-nav navbar-right float-end mx-4">
+		     	<li class="nav-item mx-1"> <a class="btn btn-outline-success" th:href="@{/locale(lang=es_ES)}">ES</a> </li>
+		     	<li class="nav-item mx-1"> <a class="btn btn-outline-success" th:href="@{/locale(lang=en_US)}">EN</a> </li>
+		     	<li class="nav-item mx-1"> <a class="btn btn-outline-success" th:href="@{/locale(lang=de_DE)}">DE</a> </li>
+		     	
+		     	<li class="nav-item dropdown mx-1">
+		          <a class="nav-link dropdown-toggle btn btn-outline-success btn-sm" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" th:text="#{text.locale.language}">
+		    
+		          </a>
+		          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+		            <li><a class="dropdown-item" th:href="@{/locale(lang=es_ES)}" th:text="#{text.locale.es}"></a></li>
+		            <li><a class="dropdown-item" th:href="@{/locale(lang=en_US)}" th:text="#{text.locale.en}"></a></li>
+		            <li><a class="dropdown-item" th:href="@{/locale(lang=de_DE)}" th:text="#{text.locale.de}"></a></li>
+		          </ul>
+		     	</li>
+		     	
+		     </ul>
+		     
 		  </div>
 		</nav>
 		
